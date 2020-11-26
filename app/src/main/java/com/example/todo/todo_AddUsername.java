@@ -67,7 +67,6 @@ public class todo_AddUsername extends AppCompatActivity {
         providers = Arrays.asList(
                 new AuthUI.IdpConfig.EmailBuilder().build(), // Email Builder
                 new AuthUI.IdpConfig.PhoneBuilder().build(), // Phone Builder
-                //Facebook Builder
                 new AuthUI.IdpConfig.GoogleBuilder().build() //Google Builder
         );
         showSignInOptions();

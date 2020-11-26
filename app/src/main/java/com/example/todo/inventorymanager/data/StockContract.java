@@ -1,4 +1,3 @@
-
 package com.example.todo.inventorymanager.data;
 
 import android.provider.BaseColumns;

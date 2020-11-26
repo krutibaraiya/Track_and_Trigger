@@ -3,8 +3,6 @@ package com.example.todo.inventorymanager;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-//import android.support.design.widget.FloatingActionButton;
-//import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -108,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
     private void addDummyData() {
         StockItem gummibears = new StockItem(
             "Gummibears",
-                "₹10",
+                "₹40",
                 45,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -118,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem peaches = new StockItem(
                 "Peaches",
-                "₹10",
+                "₹60",
                 24,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -128,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem cherries = new StockItem(
                 "Cherries",
-                "₹11",
+                "₹35",
                 74,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -137,9 +135,9 @@ public class MainActivity extends AppCompatActivity {
         dbHelper.insertItem(cherries);
 
         StockItem cola = new StockItem(
-                "Cola",
-                "₹13",
-                44,
+                "Coca Cola",
+                "₹45",
+                20,
                 "ABC suppliers",
                 "+91 9800000000",
                 "abc@gmail.com",
@@ -147,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
         dbHelper.insertItem(cola);
 
         StockItem fruitSalad = new StockItem(
-                "Fruit salad",
+                "Chips",
                 "₹20",
                 34,
                 "ABC suppliers",
@@ -157,8 +155,8 @@ public class MainActivity extends AppCompatActivity {
         dbHelper.insertItem(fruitSalad);
 
         StockItem smurfs = new StockItem(
-                "Smurfs",
-                "₹11",
+                "Chocolate",
+                "₹20",
                 26,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -168,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem fresquito = new StockItem(
                 "Fresquito",
-                "₹9",
+                "₹40",
                 54,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -178,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem hotChillies = new StockItem(
                 "Hot chillies",
-                "₹13",
+                "₹30",
                 12,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -188,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem lolipopStrawberry = new StockItem(
                 "Lolipop strawberry",
-                "₹12",
+                "₹20",
                 62,
                 "ABC suppliers",
                 "+91 9800000000",
@@ -198,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem heartGummy = new StockItem(
                 "Heart gummy jellies",
-                "₹13",
+                "₹25",
                 22,
                 "ABC suppliers",
                 "+91 9800000000",

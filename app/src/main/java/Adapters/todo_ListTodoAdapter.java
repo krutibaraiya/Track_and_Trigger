@@ -75,12 +75,13 @@ public class todo_ListTodoAdapter extends RecyclerView.Adapter<todo_ListTodoAdap
                 }
 
                 else if (list.get(position).getId() == -800) {
-                    //Important Activity Intent
+                    //Inventory Activity Intent
                     Intent intent = new Intent(context, MainActivity.class);
                     Activity activity = (Activity) context;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.to_list_activity, R.anim.to_list_activity);
                 }
+
 
                 else {
                     Activity activity = (Activity) context;
